@@ -1,0 +1,33 @@
+<!-- backend connections -->
+
+1.Step-1 (Install Required Software)
+    Node.js
+    Visual Studio Code
+    MySQL or Microsoft SQL Server
+    Postman
+
+2.check node installion
+    node -v
+    npm -v
+
+3.Setup Backend (Server)
+Open terminal inside backend folder
+    npm init -y
+    npm install express cors mysql2 body-parser nodemon
+
+4.Run Server
+    nodemon server.js
+
+5.Paste in Browser (http://localhost:5000) 
+
+6.npm install mysql2 (It allows Node.js to communicate with MySQL.)
+
+
+<!-- Frontend Connections -->
+
+1.cd frontend
+2.npx create-react-app (Rect installation)
+3.npm start
+4.npm install axios
+5.npm install chart.js react-chartjs-2 (to display chart)
+6.npm install react-icons
